@@ -318,7 +318,7 @@ ul {
   }
   
   .active {
-    background-color: #131836;
+    background-color:#131836;
   }
 
   /* help u*/
@@ -381,6 +381,16 @@ ul {
 
 .breadcrumb-text-black li a:hover {
     text-decoration: underline;
+}
+
+.breadcrumb-text-black li a:active {
+    background-color: #131836;
+    color: white;
+}
+
+.breadcrumb-text-black li a.breadcrumb-active {
+    background-color: #131836;
+    color: white;
 }
 
 .back {
